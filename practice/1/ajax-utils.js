@@ -40,7 +40,6 @@ function handleResponse(request,
                         responseHandler) {
   if ((request.readyState == 4) &&
      (request.status == 200)) {
-    console.log(request);
     responseHandler(request);
   }
 }
