@@ -23,11 +23,9 @@ function getRequestObject() {
 // Makes an Ajax GET request to 'requestUrl'
 ajaxUtils.sendGetRequest = 
   function(requestUrl, responseHandler) {
-    console.log("*");
     var request = getRequestObject();
     request.onreadystatechange = 
       function() { 
-        console.log("#");
         handleResponse(request, responseHandler); 
       };
     request.open("GET", requestUrl, true);
@@ -39,7 +37,7 @@ ajaxUtils.sendGetRequest =
 // function if response is ready
 // and not an error
 function handleResponse(request,
-                        responseHandler) {console.log("#");
+                        responseHandler) {
   if ((request.readyState == 4) &&
      (request.status == 200)) {
     responseHandler(request);
