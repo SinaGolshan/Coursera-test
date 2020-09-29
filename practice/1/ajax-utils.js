@@ -37,10 +37,10 @@ ajaxUtils.sendGetRequest =
 // function if response is ready
 // and not an error
 function handleResponse(request,
-                        responseHandler) {console.log(request);
+                        responseHandler) {
   if ((request.readyState == 4) &&
      (request.status == 200)) {
-    console.log("Reached handle");
+    console.log(request);
     responseHandler(request);
   }
 }
