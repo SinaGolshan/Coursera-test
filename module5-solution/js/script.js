@@ -115,7 +115,7 @@ function buildAndShowHomeHTML (categories) {
       // Hint: you need to surround the chosen category short name with something before inserting
       // it into the home html snippet.
       //
-      var homeHtmlToInsertIntoMainPage = "";
+      var homeHtmlToInsertIntoMainPage = "---";
 
       $ajaxUtils.sendGetRequest(homeHtmlUrl, function(resText){
         homeHtmlToInsertIntoMainPage = resText;
