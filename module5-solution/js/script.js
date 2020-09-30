@@ -121,6 +121,7 @@ function buildAndShowHomeHTML (categories) {
       console.log("****************Start debug from here*****************");
 
       $ajaxUtils.sendGetRequest(homeHtmlUrl, function(resText){
+        console.log("#"+window);
         window.homeHtmlToInsertIntoMainPage = resText;
         console.log(resText);
       }, false);
