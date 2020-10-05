@@ -1,0 +1,216 @@
+*{
+	font-family: 'Slabo 27px', serif;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #222;
+	font-size: 23px;
+}
+
+#logo img{
+	width: 150px;
+	height: 150px;
+	margin: 15px auto 15px;
+}
+
+#header-nav{
+	background-color: #cc2929;
+	border: 0;
+	margin-bottom: 0;
+}
+
+.navbar-brand h1{
+	font-size: 3em;
+	color: black;
+	font-weight: bolder;
+	margin-top: 30px;
+	margin-left: 40px;
+	text-shadow: 2px 2px 3px #555;
+}
+
+#navbarToggle{
+	margin-top: 80px;
+}
+
+#collapsable-nav a{
+	color: white;
+	margin-top: 20px;
+	margin-left: 20px;
+	text-align: center;
+}
+
+#collapsable-nav a:hover{
+	font-weight: bolder;
+	color: #333;
+}
+
+#search{
+	color: white;
+	margin-top: 40px;
+	margin-right: : 0;
+	text-align: center;
+}
+
+#search{
+	margin-left: 80px;
+
+}
+
+#search input{
+	width: 200px;
+	margin-left: 0px;
+	height: 30px;
+	color: black;
+}
+
+#search div{
+	margin-top: -10px;
+	
+}
+
+#search button{
+	width: 45px;
+	height: 35px;
+	color: #444;
+}
+
+#search button span{
+	vertical-align: middle;;
+}
+
+footer{
+	background-color: #883d3d;
+	color: white;
+	text-align: center;
+	font-size: 0.8em;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+#sidebar{
+	background-color: #bbb;
+	min-height: 500px;
+	color: black;
+	border-right: 2px solid maroon;
+}
+
+#main-content li{
+	 list-style-type: none;
+	 text-align: center;
+}
+
+#main-content a {
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+
+#main-content a:hover {
+	font-weight: bold;
+	color: darkred;
+}
+
+#main-content ul {
+	padding: 0;
+	margin-top: 23px;
+}
+
+#main-content hr{
+	color: #333;
+}
+
+#side-puller{
+	height: 33px;
+
+}
+
+#sidebar{
+  	padding: 0;
+}
+
+/*--------------------------------------------------------------------*/
+
+@media (min-width: 1200px) {
+  
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #navbar-list{
+  	margin-top: -60px;
+  }
+
+  #search{
+  	margin-left: 40px;
+  }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #logo img{
+  	width: 130px;
+  	height: 130px;
+  }
+
+  .navbar-brand h1{
+  	font-size: 2.5em;
+  }
+
+  #navbar-list a{
+  	margin-left: 5px;
+  }
+
+  #search{
+  	margin-left: 20px;
+  }
+
+  #collapsable-nav ul{
+  	margin-top: -20px;
+  }
+
+  #sidebar{
+  	padding: 0;
+  }
+}
+
+
+@media (max-width: 767px) {
+	#logo img{
+  	width: 130px;
+  	height: 130px;
+  	margin-left: 25px;
+  }
+
+  .navbar-brand h1{
+  	font-size: 2.5em;
+  	margin-left: 30px;
+  }
+
+  #search{
+  	margin-top: 30px;
+  }
+
+  #sidebar{
+  	width: 0px;
+  	padding: 0;
+  }
+}
+
+@media (max-width: 530px){
+	#logo img{
+  	width: 0px;
+  	height: 0px;
+  }
+
+  .navbar-brand h1{
+  	font-size: 1.8em;
+  	margin-top: 10px;
+  	margin-left: 10px;
+  }
+
+  #navbarToggle{
+  	margin-top: 40px;
+  }
+}
