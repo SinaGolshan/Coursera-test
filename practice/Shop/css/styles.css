@@ -16,6 +16,7 @@ body{
 
 #header-nav{
 	background-color: #cc2929;
+	background-color: #da1f1f;
 	border: 0;
 	margin-bottom: 0;
 }
@@ -54,7 +55,7 @@ body{
 
 #search{
 	margin-left: 80px;
-
+	position: relative;
 }
 
 #search input{
@@ -62,6 +63,7 @@ body{
 	margin-left: 0px;
 	height: 30px;
 	color: black;
+	border :1px solid black;
 }
 
 #search div{
@@ -70,13 +72,17 @@ body{
 }
 
 #search button{
-	width: 45px;
-	height: 35px;
+	width: 40px;
+	height: 30px;
 	color: #444;
+	padding: 1px 1px 1px;
+	vertical-align: middle;
+	position: relative;
+	bottom: 1px;
 }
 
 #search button span{
-	vertical-align: middle;;
+	vertical-align: top;;
 }
 
 footer{
@@ -90,7 +96,6 @@ footer{
 
 #sidebar{
 	background-color: #bbb;
-	min-height: 500px;
 	color: black;
 	border-right: 2px solid maroon;
 }
@@ -122,11 +127,25 @@ footer{
 
 #side-puller{
 	height: 33px;
-
+	padding: 1px;
 }
 
 #sidebar{
   	padding: 0;
+}
+
+.jumbotron img{
+	margin: 20px auto 20px;
+	width: 833px;
+	height: 533px;
+}
+
+.jumbotron{
+	background-color: #222;
+}
+
+#main-section{
+	padding: 0;
 }
 
 /*--------------------------------------------------------------------*/
